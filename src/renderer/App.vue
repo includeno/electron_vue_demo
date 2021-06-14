@@ -2,22 +2,24 @@
 
 <template>
   <div id="app">
-    <router-view></router-view>
-    <HelloWorld></HelloWorld>
+    <!-- <router-view></router-view> -->
+    <Board></Board>
   </div>
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
+import Board from "@/components/Board.vue";
 
 export default {
   name: "eleapp",
   components: {
-    HelloWorld,
+    Board,
   },
 };
 </script>
 
 <style>
 /* CSS */
+
+
 </style>
